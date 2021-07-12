@@ -1,5 +1,4 @@
 const Loggly = require('loggly');
-
 const config = require('../config');
 const logger = require('../logger');
 

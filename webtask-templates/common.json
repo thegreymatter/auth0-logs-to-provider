@@ -4,7 +4,10 @@
   "category": "log_export",
   "initialUrlPath": "/login",
   "repository": "https://github.com/auth0-extensions/auth0-logs-to-provider",
-  "keywords": ["auth0", "extension"],
+  "keywords": [
+    "auth0",
+    "extension"
+  ],
   "schedule": "0 */5 * * * *",
   "auth0": {
     "createClient": true,
@@ -121,10 +124,6 @@
         {
           "text": "Failed Exchange",
           "value": "fertft"
-        },
-        {
-          "text": "Failed Exchange",
-          "value": "ferrt"
         },
         {
           "text": "Success Exchange",
@@ -455,11 +454,11 @@
           "value": "ublkdu"
         },
         {
-          "text": "Success Login",
+          "text": "Success Exchange",
           "value": "sens"
         },
         {
-          "text": "Failed Login",
+          "text": "Failed Exchange",
           "value": "fens"
         }
       ]

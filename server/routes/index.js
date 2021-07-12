@@ -22,7 +22,7 @@ module.exports = (storage) => {
       .then((data) => {
         const lastRun = data && data.lastRun;
         const allLogs = (data && data.logs) ? _.orderBy(data.logs, 'start', 'desc') : [];
-        const logs = (req.query.filter && req.query.filter === 'errors') ? _.filter(allLogs, log => !!log.error) : allLogs;
+        const logs = allLogs;
         const page = (req.query.page && parseInt(req.query.page)) ? parseInt(req.query.page) - 1 : 0;
         const perPage = (req.query.per_page && parseInt(req.query.per_page)) || 10;
         const offset = perPage * page;

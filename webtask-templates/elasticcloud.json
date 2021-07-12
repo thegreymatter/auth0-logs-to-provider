@@ -4,12 +4,12 @@
   "version": "2.3.4",
   "preVersion": "2.3.3",
   "description": "This extension will continuously export your Auth0 logs to elasticcloud",
-  "docsUrl": "",
+  "docsUrl": "https://cdn.auth0.com/extensions/auth0-logs-to-logstash/assets/logo.png",
   "logoUrl": "https://cdn.auth0.com/extensions/auth0-logs-to-logstash/assets/logo.png",
   "secrets": {
-    "ELASTIC_ID": {
+    "ELASTIC_HOST": {
       "description": "elastic cluster token",
-      "example": "",
+      "example": "blabla",
       "required": true
     },
     "ELASTIC_USER": {
